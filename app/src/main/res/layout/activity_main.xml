@@ -9,48 +9,10 @@
     tools:context=".MainActivity"
     >
 
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent">
-
-        <ImageView
-            android:id="@+id/futuramaImage"
-            android:layout_width="100dp"
-            android:layout_height="120dp"
-            android:src="@drawable/futurama"
-            android:scaleType="centerCrop"
-            android:layout_marginBottom="16dp"
-            android:layout_gravity="center"
-            />
-
-        <TextView
-            android:id="@+id/helloText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/hello_world_text"
-            android:textSize="20sp"
-            android:layout_gravity="center"
- />
-
-    </LinearLayout>
-
-
-
-    <Button
-        android:id="@+id/helloButton"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/eventsRecycler"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world_text"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginBottom="16dp"
-        android:layout_marginHorizontal="16dp"
+        android:layout_height="match_parent"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
