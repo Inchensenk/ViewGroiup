@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">viewGroup</string>
+    <string name="hello_world_text">Hello World</string>
+    <string name="futurama_woop_woop_woop">Woop Woop Woop</string>
+</resources>
